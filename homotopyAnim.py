@@ -57,6 +57,6 @@ anim = anim.FuncAnimation(fig, animateH, frames=list(range(0,animRes)), \
                                       interval=100, blit=False, repeat=True)
 
 ax.set(xlabel='Re(z)',ylabel='Im(z)')
-ax.set(title='Map from the circle to d=3')
+ax.set(title='Map from p(z) to a circle with d=3')
 plt.draw()
 anim.save('slh_6.mp4', fps=60, extra_args=['-vcodec', 'libx264'])
