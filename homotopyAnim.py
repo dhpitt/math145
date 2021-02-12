@@ -16,6 +16,10 @@ animRes = 200
 # The straight-line homotopy #
 ##############################
 
+# This function takes in two loops (lists of complex numbers)
+# and outputs a long matrix that shows the continuous deformation
+# of one loop into the other. 
+
 def straightLineHomotopy(loop1,loop2):
     loopSpace = []
 
