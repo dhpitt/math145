@@ -58,6 +58,26 @@ delta_F[8] = 2#
 #print(linalg.solve(A,delta_F))
 '''
 
+#SOL for 35
+
+n35 = {'a': 'bc',
+     'b': 'adg',
+     'c': 'afde',
+     'd': 'bcgh',
+     'e': 'ci',
+     'f': 'c',
+     'g': 'b',
+     'h': 'd',
+     'i': 'ed'}
+b35 = {'f' : 0,
+    'g' : 3,
+    'h' : 1}
+v35 = 'abcdefghi'
+
+g35 = Graph(v35,n35,b35)
+
+print("f(x) = \n" + str(Dirichlet(g35)))
+
 # SOL for 37
 gn1 = {'a': 'bf',
      'b': 'acs',
@@ -87,6 +107,6 @@ bvals1 = {'s' : 0,
 
 graph_1 = Graph(gverts1,gn1,bvals1)
 
-print(graph_1)
+#print(graph_1)
 
-print("R(x) = \n" + str(Dirichlet(graph_1)))
+#print("Expected reward of vertex x = \n" + str(Dirichlet(graph_1)))
