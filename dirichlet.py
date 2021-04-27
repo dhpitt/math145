@@ -76,7 +76,7 @@ v35 = 'abcdefghi'
 
 g35 = Graph(v35,n35,b35)
 
-print("f(x) = \n" + str(Dirichlet(g35)))
+#print("f(x) = \n" + str(Dirichlet(g35)))
 
 # SOL for 37
 gn1 = {'a': 'bf',
